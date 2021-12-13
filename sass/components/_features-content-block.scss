@@ -1,0 +1,37 @@
+.features-list {
+  display: flex;
+}
+.features-lint {
+  width: 270px;
+
+  // .features-lint__icon-block
+
+  &__icon-block {
+    width: 100%;
+    height: 120px;
+    background: #f5f4fa;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+
+  // .features-lint__title
+
+  &__title {
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+
+  // .features-lint__text
+
+  &__text {
+    line-height: 1.71;
+    color: var(--second-text-color);
+  }
+}

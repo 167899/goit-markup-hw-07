@@ -1,0 +1,36 @@
+.navigation {
+  display: flex;
+  align-items: center;
+
+  &__list-menu {
+    margin-left: 93px;
+  }
+}
+
+.list-menu {
+  display: flex;
+
+  &__lint {
+    margin-right: 50px;
+
+    &:last-child {
+      margin: 0;
+    }
+  }
+
+  &__item--current {
+    position: relative;
+    color: var(--accent-color);
+
+    &::after {
+      content: '';
+      position: absolute;
+      display: block;
+      bottom: -1px;
+      width: 100%;
+      height: 4px;
+      border-radius: 2px;
+      background-color: var(--accent-color);
+    }
+  }
+}

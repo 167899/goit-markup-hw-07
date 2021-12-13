@@ -1,0 +1,17 @@
+.section--padding-top--0 {
+  padding-top: 0;
+}
+
+.follow-list {
+  display: flex;
+
+  &__lint {
+    margin-right: 30px;
+  }
+}
+
+.follow-lint {
+  &:last-child {
+    margin: 0;
+  }
+}

@@ -1,0 +1,22 @@
+.portfolio {
+  // .portfolio__filter-list
+
+  &__filter-list {
+    margin-bottom: 50px;
+  }
+
+  // .portfolio__card-list
+
+  &__card-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.card-list {
+  margin: -15px;
+
+  &__lint {
+    margin: 15px;
+  }
+}

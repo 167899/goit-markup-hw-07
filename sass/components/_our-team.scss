@@ -1,0 +1,14 @@
+.team {
+  background-color: var(--bgc-our-team);
+}
+
+.team-list {
+  display: flex;
+  &__lint {
+    margin-right: 30px;
+
+    &:last-child {
+      margin: 0;
+    }
+  }
+}
