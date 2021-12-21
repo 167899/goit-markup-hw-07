@@ -1,22 +1,7 @@
-.portfolio {
-  // .portfolio__filter-list
-
-  &__filter-list {
-    margin-bottom: 50px;
-  }
-
-  // .portfolio__card-list
-
-  &__card-list {
-    display: flex;
-    flex-wrap: wrap;
-  }
+.portfolio__filter {
+  margin-bottom: 50px;
 }
 
-.card-list {
+.portfolio__card {
   margin: -15px;
-
-  &__lint {
-    margin: 15px;
-  }
 }

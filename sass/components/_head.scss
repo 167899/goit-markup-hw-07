@@ -1,25 +1,24 @@
 .head {
   border-bottom: 1px solid #ececec;
+}
+.head__conteiner {
+  display: flex;
+}
+.head__contacts {
+  margin-left: auto;
+}
 
-  .conteiner {
-    display: flex;
-  }
+.head-link {
+  display: block;
+  font-weight: 500;
+  text-decoration: none;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+  padding: 32px 0;
+  transition: color var(--duration) var(--cubic-bezier);
 
-  &__item {
-    display: block;
-    font-weight: 500;
-    text-decoration: none;
-    letter-spacing: 0.02em;
-    color: var(--main-text-color);
-    padding: 32px 0;
-    transition: color var(--duration) var(--cubic-bezier);
-
-    &:hover,
-    &:focus {
-      color: var(--accent-color);
-    }
-  }
-  &__contacts-list {
-    margin-left: auto;
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
   }
 }
